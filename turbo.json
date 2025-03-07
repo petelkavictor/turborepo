@@ -1,6 +1,6 @@
 {
   "$schema": "https://turbo.build/schema.json",
-  "globalDependencies": ["SHOP_DOMAIN"],
+  "globalDependencies": ["SHOP_DOMAIN", "HOME_DOMAIN"],
   "ui": "tui",
   "tasks": {
     "build": {
