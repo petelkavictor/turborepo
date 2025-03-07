@@ -1,6 +1,9 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
+  env: {
+    SHOP_DOMAIN: process.env.SHOP_DOMAIN,
+  },
   async rewrites() {
     return [
       {
