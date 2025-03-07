@@ -18,5 +18,10 @@
       "cache": false,
       "persistent": true
     }
+  },
+  "user-app#build": {
+    "dependsOn": ["^build"],
+    "env": ["AUTH_*", "RESEND_API_KEY"],
+    "outputs": [".next/**", "!.next/cache/**"]
   }
 }
